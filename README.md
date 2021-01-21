@@ -49,7 +49,7 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 ... to this: 
 
-![Example Table](https://github.com/alvarogutyerrez/export_apollo_using_modelsummary/blob/main/LaTeX/latex_table.JPG?raw=true){:height="36px" width="36px"}
+![Example Table](https://github.com/alvarogutyerrez/export_apollo_using_modelsummary/blob/main/LaTeX/latex_table.JPG?raw=true)
 
 
 
