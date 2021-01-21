@@ -1,13 +1,15 @@
-# [Apollo](http://www.apollochoicemodelling.com/)  + [modelsummary](https://www.example.com) 
+# [Apollo](http://www.apollochoicemodelling.com/)  + [modelsummary](https://github.com/vincentarelbundock/modelsummary) 
 
 
-Here you can find a minimalist example of how to export [Apollo](http://www.apollochoicemodelling.com/) objects to LaTeX using [modelsummary](https://www.example.com) and [kableExtra](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html).
+Here you can find a minimalist example of how to export [Apollo](http://www.apollochoicemodelling.com/) objects to LaTeX using [modelsummary](https://github.com/vincentarelbundock/modelsummary) and [kableExtra](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html).
 
 
 
 The example uses van Cranenburgh (2018) data, and using Apollo fits a Latent Class Model with three classes. As you can imagine, this produces a rather extensive list of parameters; hence parsing them is a tedious task.
 
 Script [Apollo_LCM_3_classes.R](https://github.com/alvarogutyerrez/export_apollo_using_modelsummary/blob/main/code/Apollo_LCM_3_classes.R) fits the model and [table_generator.R](https://github.com/alvarogutyerrez/export_apollo_using_modelsummary/blob/main/code/table_generator.R) creates a LaTeX table using the [Apollo object](https://github.com/alvarogutyerrez/export_apollo_using_modelsummary/blob/main/saved_models/LCM_3_classes.rds). I did a small workaround, explained on the script, to parse the parameters from each class and put them in different columns. 
+
+## Output Results.
 
 In the end, you will go from this...
 
@@ -50,6 +52,12 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 ... to this: 
 
 ![Example Table](https://github.com/alvarogutyerrez/export_apollo_using_modelsummary/blob/main/LaTeX/latex_table.JPG?raw=true)
+
+
+## Further information?
+
+All you need to do is check [modelsummary](https://github.com/vincentarelbundock/modelsummary) and [kableExtra](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html) web pages to find everything you need to generate your own personalized tables from your [Apollo](http://www.apollochoicemodelling.com/) models.
+
 
 
 
