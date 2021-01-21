@@ -49,7 +49,8 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 ... to this: 
 
-<img src="/export_apollo_using_modelsummary/README_files/latex_table.JPG" alt="example" width="80%"/>
+![Example Table](https://github.com/alvarogutyerrez/export_apollo_using_modelsummary/blob/main/LaTeX/latex_table.JPG?raw=true)
+
 
 
 - van Cranenburgh, Sander (2018): Small value-of-time experiment, Netherlands. 4TU.ResearchData. Dataset. https://doi.org/10.4121/uuid:1ccca375-68ca-4cb6-8fc0-926712f50404 
