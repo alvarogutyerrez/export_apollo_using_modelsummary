@@ -144,24 +144,11 @@ tab <- msummary(models = all_coef ,
               stars = TRUE,     ## display stars  
               coef_map = cm,    ## Change the of the coefficients
               output = 'latex', ## Declate LaTeX Output
-              add_rows = rows ) #,  ## Add the rows with (LL, Num.Obs, Num.Ind,)  
+              add_rows = rows, #,  ## Add the rows with (LL, Num.Obs, Num.Ind,)  
+              title = "Latent Class model" )%>%
+  kable_styling(latex_options = c(  "hold_position")) ## LaTeX display with page
 
 kableExtra::save_kable(tab,
                        file = "LaTeX/VoT_LCM_3_classes.tex") 
-
-
-
-#An additional example  of a further modified table.
-tab_fit_with_page <- msummary(models = all_coef ,
-                stars = TRUE,     ## display stars  
-                coef_map = cm,    ## Change the of the coefficients
-                output = 'latex', ## Declate LaTeX Output
-                add_rows = rows  #,  ## Add the rows with (LL, Num.Obs, Num.Ind,)  
-             )%>%
- kable_styling(latex_options = c( "scale_down")) ## LaTeX display with page
-
-kableExtra::save_kable(tab_fit_with_page,
-                       file = "LaTeX/VoT_LCM_3_classes_tab_fit_with_page.tex") 
-
 
 
